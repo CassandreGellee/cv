@@ -1,0 +1,202 @@
+/* style.css */
+
+#container-1 {
+  display: flex;
+  align-content: flex-start;
+}
+
+#image-1 {
+  margin: 10px;
+  padding: 30px;
+}
+
+.image-1 {
+  border-radius: 50%;
+  background: white;
+}
+
+#profil {
+  padding-top: 55px;
+  padding-bottom: 40px;
+  font-size: 18px;
+}
+
+
+#container-2 {
+  display: flex;
+  align-content: space-around;
+  margin: 10px;
+}
+
+
+#case-1 {
+  padding: 30px;
+  flex-grow: 2;
+  margin: 10px;
+  align-content: flex-start;
+  border: 0,5px solid;
+  border-radius: 3px;
+  border-color: #7F4D49; 
+  background-color: #FFFFFF
+}
+
+#case-1 h1 {
+  color: #47677c;
+  text-align: center;
+  padding-bottom: 20px;
+  align-content: flex-end
+}
+
+#case-1 h2 {
+  font-size: 16px;
+}
+
+#case-1 h3 {
+  font-size: 16px;
+  font-style: italic;
+}
+
+#case-1 p {
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+#case-2 {
+  padding: 30px;
+  flex-grow: 1;
+  border: 0,5px solid;
+  margin: 10px;
+  border-radius: 3px;
+  border-color: #7F4D49;
+  background-color: #FFFFFF
+}
+
+#case-2 h1 {
+  color: #47677c;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#case-2 h2 {
+  font-size: 16px;
+}
+
+#case-2 p {
+  font-style: italic;
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+
+#case-3 {
+  padding: 30px;
+  flex-grow: 1;
+  border: 0,5px solid;
+  margin: 10px;
+  align-content: flex-end;
+  border-radius: 3px;
+  border-color: #7F4D49;
+  background-color: #FFFFFF}
+
+#case-3 h1 {
+  color: #47677c;
+  text-align: center;
+  padding-bottom: 30px;
+
+}
+
+
+#case-3 h2 {
+  font-size: 16px;
+}
+
+#container-3 {
+  margin: 10px; 
+}
+
+#banner {
+  text-align: left;
+  background-image: url(images/marguerite-729510_1920.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  color: white;
+}
+
+#banner h1 {
+  margin-left: 100px;
+}
+
+#banner h2 {
+  font-size: 15px;
+  margin-left: 150px;
+  padding-bottom: 20px;
+}
+
+#banner a {
+  margin-left: 220px;
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+body{
+  background-image: url(images/3.png);
+  font-family: "Lucida" Grande, sans-serif;
+}
+
+.btn-blue {
+  color: white;
+  background-color: #2a3759;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 15px 20px;
+}
+
+.btn-blue:hover {
+  background-color: #265c53;
+  color: white;
+  text-decoration: none;
+}
+
+#case-3 h2 {
+  margin: 10px;
+  padding-bottom: 30px;
+}
+
+#case-3 p {
+  padding-top: 5px;
+}
+
+#case-4 {
+  padding: 10px;
+  flex-grow: 2;
+  margin: 10px;
+  align-content: flex-start;
+  border: 0,5px solid;
+  border-radius: 3px;
+  border-color: #7F4D49; 
+  background-color: #FFFFFF
+}
+
+#case-4 h1 {
+  color: #47677c;
+  text-align: center;
+  align-content: flex-end
+}
+
+#container-4 {
+  margin: 10px;
+}
+
+#container-5 {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#container-5 p {
+  font-size: 16px;
+  text-align: center;
+  padding-top: 20px;
+}
+
